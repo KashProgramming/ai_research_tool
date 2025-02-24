@@ -5,8 +5,8 @@ This tool is designed for retrieving information effortlessly. It's a user-frien
 ## Features
 
 - Load URLs or upload text files with links to extract article content.
-- Process extracted content using LangChain’s `UnstructuredURLLoader` for efficient analysis.
-- Construct embedding vectors using OpenAI’s embeddings and utilize FAISS, a high-performance similarity search library, for fast and effective information retrieval.
+- Process extracted content using LangChain’s UnstructuredURLLoader for efficient analysis.
+- Construct embedding vectors using HuggingFace embeddings and utilize FAISS, a high-performance similarity search library, for fast and effective information retrieval.
 - Interact with a large language model by inputting queries and receiving answers along with source URLs for reference.
 
 <img width="1273" alt="image" src="https://github.com/user-attachments/assets/a2a5f432-fe1b-4d68-872c-8f3046aacc5b" />
