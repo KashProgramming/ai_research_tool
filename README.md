@@ -1,6 +1,6 @@
 # AI-Powered Research Assistant
 
-This tool is a user-friendly research assistant designed for effortless information retrieval. Users can input article URLs or upload text files containing URLs to fetch relevant content and gain valuable insights across various domains.
+This tool is designed for retrieving information effortlessly. It's a user-friendly research assistant that allows users to enter links of various articles that they want content from. They can then ask questions related to the articles and the relevant content will be fetched and used by the AI to provide the user with an appropriate answer. There will also be sources provided to know exactly which link the answer was taken from.
 
 ## Features
 
@@ -11,4 +11,4 @@ This tool is a user-friendly research assistant designed for effortless informat
 
 <img width="1273" alt="image" src="https://github.com/user-attachments/assets/a2a5f432-fe1b-4d68-872c-8f3046aacc5b" />
 
-This research assistant streamlines the process of gathering and analyzing information, making it easier to extract key insights.
+This research assistant streamlines the process of gathering and analyzing information, making it easier to extract key insights without having to manually go through multiple articles.
