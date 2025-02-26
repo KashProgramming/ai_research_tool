@@ -8,4 +8,4 @@ faiss-cpu
 libmagic
 python-magic
 streamlit
-langchain_community
+langchain-community
