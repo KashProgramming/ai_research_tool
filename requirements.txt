@@ -7,5 +7,3 @@ tiktoken
 faiss-cpu
 libmagic
 python-magic
-python-magic-bin
-pickle-mixin
