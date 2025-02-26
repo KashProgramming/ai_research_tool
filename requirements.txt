@@ -1,4 +1,6 @@
 langchain
+langchain_openai
+langchain_huggingface
 python-dotenv
 streamlit
 unstructured
@@ -7,4 +9,4 @@ faiss-cpu
 libmagic
 python-magic
 python-magic-bin
-ChatOpenAI
+pickle-mixin
