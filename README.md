@@ -11,6 +11,7 @@ This tool is designed for retrieving information effortlessly. It's a user-frien
 
 <img width="1273" alt="image" src="https://github.com/user-attachments/assets/a2a5f432-fe1b-4d68-872c-8f3046aacc5b" />
 <img width="1341" alt="image" src="https://github.com/user-attachments/assets/a51e26db-d2d2-4035-bf21-ab1e45dbd7b6" />
+<img width="1341" alt="image" src="https://github.com/user-attachments/assets/a2580817-5088-4499-94b8-3a1c20b71ebe" />
 
 
 This research assistant streamlines the process of gathering and analyzing information, making it easier to extract key insights without having to manually go through multiple articles.
