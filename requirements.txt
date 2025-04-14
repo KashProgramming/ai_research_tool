@@ -10,3 +10,4 @@ python-dotenv
 unstructured
 tiktoken
 python-magic
+libmagic
