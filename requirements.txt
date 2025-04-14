@@ -2,6 +2,7 @@ streamlit
 langchain
 langchain-openai
 langchain-huggingface
+langchain-community
 sentence-transformers
 torch
 torchvision
