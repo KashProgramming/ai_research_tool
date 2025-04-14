@@ -29,7 +29,7 @@ file_path = "faiss_store_openai.pkl"
 main_placefolder = st.empty()
 llm = ChatOpenAI(
     openai_api_base="https://openrouter.ai/api/v1",
-    openai_api_key=os.getenv("DEEPSEEK_API_KEY"),
+    openai_api_key=st.secrets["DEEPSEEK_API_KEY"],
     model_name="deepseek/deepseek-chat:free"
 )
 
