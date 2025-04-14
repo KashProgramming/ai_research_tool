@@ -8,4 +8,6 @@ faiss-cpu
 libmagic
 python-magic
 streamlit
-langchain-community
+ChatOpenAI
+torch
+torchvision
