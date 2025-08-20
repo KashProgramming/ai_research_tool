@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_chroma import Chroma
-import chromadb
 from langchain.schema import Document
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
@@ -85,15 +84,10 @@ if st.button("Process") and urls:
             
             # Create vector store in temporary directory
             temp_dir = tempfile.mkdtemp()
-            chroma_settings=chromadb.config.Settings(
-                anonymized_telemetry=False,
-                chroma_db_impl="duckdb+parquet"
-            )
             vectorstore = Chroma.from_documents(
                 documents=splits,
                 embedding=embeddings,
-                persist_directory=temp_dir,
-                client_settings=chroma_settings
+                persist_directory=temp_dir
             )
             
             # Store in session state
