@@ -6,14 +6,8 @@ This tool is designed for retrieving information effortlessly. It's a user-frien
 
 - Load URLs or upload text files with links to extract article content.
 - Process extracted content using LangChain’s UnstructuredURLLoader for efficient analysis.
-- Construct embedding vectors using HuggingFace embeddings and utilize FAISS, a high-performance similarity search library, for fast and effective information retrieval.
+- Construct embedding vectors using HuggingFace embeddings and utilize ChromaDB, a high-performance vector database, for fast and effective information retrieval.
 - Interact with a large language model by inputting queries and receiving answers along with source URLs for reference.
-
-<img width="1273" alt="image" src="https://github.com/user-attachments/assets/a2a5f432-fe1b-4d68-872c-8f3046aacc5b" />
-Extracting content from the entered URL Links:
-<img width="1341" alt="image" src="https://github.com/user-attachments/assets/a51e26db-d2d2-4035-bf21-ab1e45dbd7b6" />
-Processing the content by splitting text into chunks and storing in DB:
-<img width="1341" alt="image" src="https://github.com/user-attachments/assets/a2580817-5088-4499-94b8-3a1c20b71ebe" />
 
 
 This research assistant streamlines the process of gathering and analyzing information, making it easier to extract key insights without having to manually go through multiple articles.
