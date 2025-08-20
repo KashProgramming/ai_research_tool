@@ -13,3 +13,4 @@ python-magic
 libmagic
 python-dotenv
 bs4
+chromadb
