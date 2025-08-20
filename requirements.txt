@@ -13,4 +13,4 @@ python-magic
 libmagic
 python-dotenv
 bs4
-pisqlite3-binary
+pysqlite3-binary
