@@ -5,12 +5,7 @@ langchain-community
 langchain-groq
 langchain-chroma
 sentence-transformers
-torch
 python-dotenv
-unstructured
-tiktoken
-python-magic
-libmagic
 python-dotenv
 bs4
 pysqlite3-binary
