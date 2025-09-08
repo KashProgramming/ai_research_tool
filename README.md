@@ -2,6 +2,9 @@
 
 This tool is designed for retrieving information effortlessly. It's a user-friendly research assistant that allows users to enter links of various articles that they want content from. They can then ask questions related to the articles and the relevant content will be fetched and used by the AI to provide the user with an appropriate answer. There will also be sources provided to know exactly which link the answer was taken from.
 
+## Live Demo
+👉 Try it now: [**AI-Powered Research Assistant**](https://ai-powered-research-assistant.streamlit.app)
+
 ## Features
 
 - Load URLs or upload text files with links to extract article content.
