@@ -65,8 +65,8 @@ for i in range(5):
     url = st.sidebar.text_input(f"URL {i+1}", key=f"url_{i}", placeholder="https://example.com/article")
     if url:
         urls.append(url)
-st.sidebar.write("🤖 Enter your favourite GROQ model (or leave blank for default [llama-3.1-8b-instant]):")
-groq_model=st.sidebar.text_input("E.g.: llama-3.3-70b-versatile or qwen/qwen3-32b") or "llama-3.1-8b-instant"
+st.sidebar.write("🤖 Enter your favourite GROQ model (or leave blank for default [qwen/qwen3-32b]):")
+groq_model=st.sidebar.text_input("E.g.: llama-3.3-70b-versatile or llama-3.1-8b-instant") or "qwen/qwen3-32b"
 
 # Process Button in Sidebar
 if st.sidebar.button("Build Knowledge Base") and urls:
