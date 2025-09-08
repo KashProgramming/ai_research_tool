@@ -1,5 +1,6 @@
-__import__('pysqlite3')
+__import__("pysqlite3")
 import sys
+sys.modules["sqlite3"]=sys.modules.pop("pysqlite3")
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
@@ -14,8 +15,6 @@ import tempfile
 import shutil
 from dotenv import load_dotenv
 import atexit
-
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 # Load environment variables
 load_dotenv()
